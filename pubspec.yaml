@@ -32,19 +32,29 @@ dependencies:
     sdk: flutter
   image_picker: ^1.1.2
   universal_io: ^2.0.4
-  google_ml_kit: 0.7.3
+  #google_ml_kit: ^0.7.3
   qr_code_scanner: ^1.0.1
   camera: ^0.11.0+1
   screenshot: ^3.0.0
   path_provider: ^2.0.11
   #gallery_saver: ^2.3.0
   mailer: ^5.0.0
+  
+  
+  provider: ^6.1.2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   http: ^1.1.0
   cupertino_icons: ^1.0.6
   google_generative_ai: ^0.4.3
   flutter_local_notifications: ^17.2.1+2
+  emailjs: ^4.0.0
+  flutter_email_js: ^1.0.3
+  fl_chart: ^0.40.0
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  fluttertoast: ^8.2.5
+  google_fonts: 5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -76,6 +86,14 @@ flutter:
     - assets/NatwestLogo.png
     - assets/Visa-Logo.png
     - assets/S.png
+    - assets/master_card.png
+    - assets/paypal.png
+    - assets/OIP (2).png
+    - assets/skril.png
+    - assets/M2.png
+    - assets/M3.png
+    - assets/64046-paytm-cashback-day-paytm (1).png
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
